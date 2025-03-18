@@ -20,7 +20,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/yudada
     username: root
-    password: 134679
+    password: 
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
@@ -47,7 +47,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         jdbc-url: jdbc:mysql://localhost:3306/yudada
         username: root
-        password: 134679
+        password: 
     # 规则配置
     rules:
       sharding:
@@ -107,4 +107,4 @@ knife4j:
           - com.CQ.AiWenDaPinTai.controller
 #AI配置
 ai:
-  ApiKeys: 6f87afd8372f90e989577b916dcdd5cd.4ltusJpt6FOkOb76
+  ApiKeys: 
